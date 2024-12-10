@@ -1,10 +1,6 @@
 import * as DbObjectBuilder from "luna/tools/language_def/db_object_builder/builder";
 import type { DbObjectConfig } from "luna/tools/language_def/db_object_def/db_object_config";
 
-// Note: this is referenced in LunaServer team.ts
-// ##TeamTypeConsistency
-// consider updating api_paging_domain_projection_def.ts if you're changing this
-// Should be kept in sync with TeamModel.scala.
 export const TeamType = {
     Secret: 10 as const,
     RequestToJoin: 20 as const,
